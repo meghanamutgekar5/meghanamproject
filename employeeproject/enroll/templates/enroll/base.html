@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      body{    
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://previews.123rf.com/images/stokkete/stokkete1708/stokkete170800035/84247756-business-people-working-together-at-office-desk-they-are-examining-some-financial-reports-and-paperw.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model based CRUD Project</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+</head>
+<body>
+  
+    {% block content %} {% endblock content %}
+  
+    <script> src="{% static 'enroll/js/jquery.js' %}"</script>
+    <script> src="{% static 'enroll/js/popper.js' %}"</script>
+    <script> src="{% static 'enroll/js/bootstrap.js' %}"</script>
+  </div>
+</body>
+</html>
